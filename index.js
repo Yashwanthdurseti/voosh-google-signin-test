@@ -26,7 +26,8 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "https://your-heroku-app-name.herokuapp.com/auth/google/callback", // Update with your Heroku app URL
+      callbackURL: "https://voosh-foods-screening-e240f1d5f72b.herokuapp.com/auth/google/callback"
+ // Update with your Heroku app URL
     },
     (accessToken, refreshToken, profile, done) => {
       return done(null, profile);
