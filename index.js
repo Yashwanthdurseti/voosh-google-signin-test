@@ -69,11 +69,11 @@ app.get("/profile", (req, res) => {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="styles.css">
-      <title>Voosh Foods - Profile</title>
+      <title>Test Website</title>
     </head>
     <body>
       <header>
-        <h1>VooshFoods-Screening</h1>
+        <h1>Welcome , User Authenticated </h1>
         <div class="user-info">
           <img src="${user.photos[0].value}" class="user-avatar" alt="User Avatar">
           <span>${user.displayName}</span>
@@ -84,7 +84,7 @@ app.get("/profile", (req, res) => {
         <h2>User logged in as: ${user.displayName}</h2>
       </main>
       <footer>
-        <p>© 2024 VooshFoods-Screening. All rights reserved.</p>
+        <p>© 2024 Have a good day. All rights reserved.</p>
       </footer>
     </body>
     </html>
